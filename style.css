@@ -98,15 +98,15 @@ h2 {
   gap: 64px;
   padding: 63px 80px;
 }
+.duvida {
+  position: relative;
+}
 
 .duvida h3 {
   border: 2px solid #ff725e;
   border-radius: 10px;
   cursor: pointer;
   padding: 24px;
-}
-.duvida {
-  position: relative;
 }
 .duvida img {
   position: absolute;
@@ -118,7 +118,7 @@ h2 {
   border-right: 1px solid #ff725e;
   border-bottom: 1px solid #ff725e;
   border-left: 1px solid #ff725e;
-  border-radius: 0px 0px 8px 8px;
+  border-radius: 0 0 8px 8px;
   margin-top: -8px;
   padding: 24px;
 }
@@ -138,7 +138,7 @@ footer .titulo {
   margin-bottom: 24px;
 }
 
-footer nav a{
+footer nav a {
   color: #263138;
   display: block;
   margin-bottom: 24px;
@@ -149,13 +149,13 @@ footer p {
   max-width: 350px;
 }
 
-footer p a{
+footer p a {
   color: #ff725e;
   text-decoration: none;
 }
 
-#copyright{
-  background-color:#263138 ;
+#copyright {
+  background-color: #263138;
   padding: 24px;
   text-align: center;
   color: white;
@@ -163,4 +163,5 @@ footer p a{
 
 #copyright a {
   color: #ff9a6c;
+  text-underline-offset: 6px;
 }
